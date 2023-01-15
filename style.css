@@ -1,0 +1,225 @@
+body{
+    align-items: center;
+}
+nav button {
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    float: left;
+    padding: 17px;
+}
+main {
+    background-image: url(/images/hero_image.png);
+    background-repeat: n;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main_container {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.headline {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+
+   
+    
+}
+
+.headline h1 {
+    color: white;
+font-family: Netflix Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -0.005em;
+text-align: center;
+
+}
+.headline h3 {
+    color: white;
+font-family: Netflix Sans;
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.email_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email_container p {
+font-family: Netflix Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: center;
+color: white;
+
+}
+.emailinput {
+    display: flex;
+}
+.emailbox{
+    display: flex;
+    height: 50px;
+    flex-grow: 2;
+    
+
+}
+.getstarted {
+    background-color: red;
+   flex-grow: 2;
+   color: white;
+}
+.props1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+border-top: solid gray;
+border-bottom: solid gray;
+}
+.props1_cont {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+margin: 60px;
+    
+}
+
+.props1_textbox h2 {
+    font-family: Netflix Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: white;
+     
+}
+.props1_textbox p {
+    font-family: Netflix Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.props2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+border-bottom: solid gray;
+}
+.props2_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 60px;
+    
+}
+.props2_textbox h2 {
+color: white;
+font-family: Netflix Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.props2_textbox p {
+    color: white;
+font-family: Netflix Sans;
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.props3 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+border-bottom: solid gray;
+}
+.props3_cont {
+    display: flex;
+    justify-content: center;
+margin: 60px;
+}
+
+
+.props4 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+border-bottom: solid gray;
+}
+.props4_cont {
+    display: flex;
+    justify-content: center;
+margin: 60px;
+}
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 70px;
+}
+@media screen and (max-width: 900px ) {
+    .emailinput {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        
+}
+.emailbox {
+    width: 500px;
+    margin: 20px;
+    
+}
+.getstarted {
+    padding: 17px;
+    width: 230px;
+    align-items: center;
+}
+.props1_cont {
+    flex-direction: column-reverse;
+}
+
+.props2_cont{
+    flex-direction: column-reverse;
+}
+.props3_cont {
+    flex-direction: column;
+}
+.props4_cont {
+    flex-direction: column-reverse;
+}
+
+}
+
+
+
+
+
