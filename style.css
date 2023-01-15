@@ -1,5 +1,8 @@
 body{
     align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 nav button {
     background-color: red;
@@ -11,7 +14,6 @@ nav button {
 main {
     background-image: url(/images/hero_image.png);
     background-repeat: n;
-    background-size: cover;
 }
 nav {
     display: flex;
@@ -35,6 +37,8 @@ max-width: 100px;
     display: flex;
     flex-direction: column;
     padding: 80px;
+    min-width: 300px;
+    max-width: 950px;
 
    
     
@@ -85,7 +89,7 @@ color: white;
     height: 48px;
     width: 100%;
     max-width: 500px;
-    min-width: 320px;
+    min-width: 300px;
     
 
 }
@@ -110,6 +114,15 @@ border-bottom: solid gray;
 margin: 60px;
 max-width: 540px;
 max-width: 330px;
+}
+.tvscreen{
+    display: flex;
+    min-width: 330px;
+    max-width: 540px;
+}
+.tv_cont {
+    min-width: 300px;
+    max-width: 540px;
 }
 
 .props1_textbox h2 {
