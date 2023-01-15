@@ -183,7 +183,7 @@ footer {
     justify-content: center;
     padding: 70px;
 }
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 700px ) {
     .emailinput {
         display: flex;
         flex-direction: column;
