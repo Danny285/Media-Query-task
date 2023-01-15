@@ -18,11 +18,16 @@ nav {
     justify-content: space-between;
     padding: 20px;
 }
+.logo {
+    max-width: 160px;
+max-width: 100px;
+}
 .main_container {
     display: flex;
     background-size: cover;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 
     
 }
@@ -43,6 +48,7 @@ font-weight: 700;
 line-height: 70px;
 letter-spacing: -0.005em;
 text-align: center;
+
 
 }
 .headline h3 {
@@ -75,15 +81,19 @@ color: white;
 }
 .emailbox{
     display: flex;
-    height: 50px;
-    flex-grow: 2;
+    padding: 10px;
+    height: 48px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 320px;
     
 
 }
 .getstarted {
     background-color: red;
-   flex-grow: 2;
    color: white;
+   min-width: 170px;
+   padding: 10px 16px;
 }
 .props1 {
     display: flex;
@@ -98,7 +108,8 @@ border-bottom: solid gray;
     justify-content: center;
     align-items: center;
 margin: 60px;
-    
+max-width: 540px;
+max-width: 330px;
 }
 
 .props1_textbox h2 {
@@ -131,8 +142,10 @@ border-bottom: solid gray;
     justify-content: center;
     align-items: center;
 margin: 60px;
-    
+max-width: 500px;
+max-width: 300px;
 }
+
 .props2_textbox h2 {
 color: white;
 font-family: Netflix Sans;
@@ -158,11 +171,14 @@ text-align: left;
     justify-content: center;
     background-color: black;
 border-bottom: solid gray;
+
 }
 .props3_cont {
     display: flex;
     justify-content: center;
 margin: 60px;
+max-width: 540px;
+max-width: 330px;
 }
 
 
@@ -176,12 +192,20 @@ border-bottom: solid gray;
     display: flex;
     justify-content: center;
 margin: 60px;
+max-width: 540px;
+max-width: 330px;
 }
 footer {
     display: flex;
     background-color: black;
     justify-content: center;
     padding: 70px;
+
+}
+.footimage {
+    display: flex;
+    max-width: 800px;
+    min-width: 300px;
 }
 @media screen and (max-width: 700px ) {
     .emailinput {
@@ -194,14 +218,13 @@ footer {
         
 }
 .emailbox {
-    width: 500px;
     margin: 20px;
     
 }
 .getstarted {
     padding: 17px;
-    width: 230px;
     align-items: center;
+    margin: 20px;
 }
 .props1_cont {
     flex-direction: column-reverse;
